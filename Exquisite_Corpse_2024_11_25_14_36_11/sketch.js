@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(400, 600);
+  let canvas =createCanvas(400, 600);
+  canvas.parent('p5-container');  
   // canvas.parent('p5-container');
   angleMode()
 }

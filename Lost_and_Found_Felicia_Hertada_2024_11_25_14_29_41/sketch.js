@@ -10,7 +10,7 @@ The object description : A rectangle white container that vertically opens upwar
 
 function setup() {
   let canvas = createCanvas(400, 400);
-  canvas.parent('p5-container1');  
+  canvas.parent('p5-container');  
   background(220);
 }
 

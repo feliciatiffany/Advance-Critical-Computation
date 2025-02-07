@@ -6,7 +6,7 @@ let eyeOpen = true;
 let isRed = false; 
 
 function setup() {
-  createCanvas(400, 400);
+  let canvas=createCanvas(400, 400);
   canvas.parent('p5-container'); 
   color1 =(random(0,255));
   color2 =(random(0,255));

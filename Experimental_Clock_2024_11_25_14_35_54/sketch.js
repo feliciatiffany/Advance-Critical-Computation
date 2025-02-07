@@ -10,7 +10,8 @@ let future
 
 
 function setup() {
-  createCanvas(600, 600);
+  let canvas=createCanvas(600, 600); 
+  canvas.parent('p5-container');  
    past =false; //for the condition of if statement
    present=true;
   future=false;

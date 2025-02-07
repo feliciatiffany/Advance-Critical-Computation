@@ -1,6 +1,7 @@
 let angle=0
 function setup() {
-  createCanvas(600, 600);
+  let canvas=createCanvas(600, 600);
+  canvas.parent('p5-container');  
   // canvas.parent('p5-container');
   rectMode(CENTER);
   
