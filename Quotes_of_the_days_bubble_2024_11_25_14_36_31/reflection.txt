@@ -1,0 +1,36 @@
+- A description of your Data Portrait. What personal habit were you trying to track?
+
+This year, I set a goal to cultivate the habit of reading, listening to podcasts, or journaling each day. This idea comes from my desire to portray my personal habits of reading and watching podcasts using p5.js. Through reading and listening to podcasts, I often find new quotes that resonate with me. In this sketch, you can see a series of my quotes of the day from Friday, October 11, 2024, to Thursday, October 17, 2024.
+
+
+- Instructions for viewers on how to read your Data Portrait.
+
+Viewers simply need to click on one of the bubbles. Pressing the bubble will take them to the data from October 11 to 17. It will then display all the full information for each day and the corresponding quote.
+
+Additionally, I want viewers not just to read but also to play with the data. This is my way of making data exploration more fun and engaging. I’ve intentionally made the data random for each bubble so that viewers can experience different data each time they interact with it.
+
+Instruction (Step by Step):
+1. Pick any bubble you find interesting 
+2. Pressed the bubble
+3. It will lead to one quotes or data I record in the last 7 days
+4. Press "Back" button to come back choosing another bubble
+
+
+- Describe your design process. Include your numbered list and any other sketches or images that would help us better understand your process.
+
+At first, I wrote down what I might track as data for this project. My initial list focused on my habits of reading and listening to podcasts, which led to the idea of today's quotes. Writing down quotes I like has always been one of my habits, but I haven't organized them by day before; I typically categorize them in my own way. So, I decided to organize this data and stick to the idea. I sketched some illustrations that came to mind and brainstormed ideas from internet. Eventually, I came up with the idea of creating bouncing bubbles, similar to those seen in screensavers. I can turn the bubbles into a fun game where people can peek at the data I’ve collected. I also randomize the list to mirror how I write my quotes in my list each day. Somehow, I want this project to reflect my personality through the data visualization.
+
+To accomplish this, I sought help from YouTube videos, ChatGPT, and, of course, p5.js references. I kept learning new things throughout this process. In the end, despite facing many errors while building it, I managed to create a “Quotes of the Day” list within this bubbly data portrait.
+
+
+Your overall reflection on the assignment: 
+- What did you learn about yourself through the process of self-tracking?
+
+I realized that reading and words have a more significant impact on my life than I previously thought. I believe that everything I consume influences how I perceive the world, my mindset, and my life values. Looking back at all the quotes I collected, I might not resonate with them every time. However, I can see how my perception evolves daily based on the descriptions I wrote for each quote. I am noticing how my values improve day by day, and this process serves as a way to keep my life intact by reflecting on it through what feels like a journal.
+
+- What was gained/lost through the process of data visualization?
+
+Creating this data visualization made me more aware of my artistic style. I’ve always wanted to incorporate fun and create joyful experiences for the audience in most of my projects.
+
+On the other hand, I didn't follow a chronological order in my data visualization. This might be frustrating if there’s too much data, making it hard for the audience to see everything. However, I also think this could spark curiosity and encourage viewers to explore my project further.
+

@@ -1,0 +1,26 @@
+1. Write a description for your experimental clock. How is it novel to you and how might it alter the way you track / keep time?           
+
+My experimental clock is called the Climate Clock. I’ve always wondered when people will finally wake up to the reality of climate change. When will we stop passing the blame and responsibility around, and actually take big, meaningful actions to address the problem? Will it only happen after disaster strikes? That’s where the idea came from—I wanted to show a leap in time between the past, present, and future to shake people into facing this reality.
+
+Eventually, I realized I wasn’t the only one thinking like this. In Union Square, there's a big climate clock, too. But with mine, I wanted to visually represent how the past, present, and potential future of the Earth might look if we don't take action. Sometimes, visuals speak louder than words when it comes to showing harsh truths. Even if I’m being a bit hyperbolic, I think it’s important to throw the reality out there, because no one really knows what the future holds.
+
+On a personal note, timers are super important in my life. I use them all the time to manage my schedule, stay on track, and be productive. So, I hope that by seeing this countdown for climate change, people will feel inspired to take action, just like how a timer pushes me to keep going.
+
+
+2. Describe your design process. Include all three of your design sketches and explain how you’ve ended up choosing one.
+
+  My first idea was to create a timer related to the importance of timer in my life, which I mentioned earlier. It was a simple concept: I wanted to make a desk alarm that shows how time changes throughout the day by showing the sky from the window behind the desk.
+
+For my second idea, I thought about the "walking in New York” clock. I wanted to create a map of Manhattan where you could track your walking route, similar to how Google Maps works. This idea came to me because I often measure time based on how far I walk and how many blocks I cover in NYC. I found it interesting to think about how time passes as you walk through the city’s blocks.
+
+I also had the idea of showing the time in different countries because many of my friends are spread across the world. This is something I already have set up on my phone’s screen to help me adjust to time zones in different parts of the world. It helps me know when I can contact them or just wonder what they’re up to at any given moment. On the topic of my phone, I also considered making a clock related to my social media screen time.
+
+In the end, I chose the Climate Clock idea, which came to me later on. I’ve always been concerned about environmental issues, especially climate change. Recently, we had Climate Week where many leaders discussed climate action and what more can be done. I also just wrapped up being in charge of a sustainability discussion forum at my country’s embassy, which left me with a deep sense of urgency about climate change. That’s when I decided to create a countdown clock focused on climate change. I also picked this idea because I wanted to learn how to program a countdown timer.
+
+
+3. What’s your overall reflection on this assignment? What have you learned throughout the process of designing an unconventional clock?
+  I learned a lot from this assignment, probably because I started working on it earlier than usual compared to my previous projects. Since I was already somewhat familiar with C++, I found it easier to understand how p5.js works and how to read the code. One of the key things I learned was how useful the p5.js reference is. I realized that as long as I’m willing to study each piece of code and understand what it does, I can create anything. The more I understand the functions, the more ideas I can bring to life, which in turn boosts my creativity.
+
+Specifically in this project, I learned how to use vertex, create custom buttons (and understand how they function), and design different visuals that change when you press a button. I also spent a lot of time familiarizing myself with the various functions in the code. On top of that, I learned about building a countdown clock. I struggled with figuring out how to convert hours into years (365 days), minutes into days (since the base is 24 hours instead of 60 seconds per minute), and seconds into hours. For example, in the present time, the clock counts down from 4 years, 298 days, and 24 hours, but the time reduces in real-time with each passing second.
+
+Overall, it was a fun project, and I’m really happy with everything I learned. Exploring all these functions made me admire the p5.js reference library even more!

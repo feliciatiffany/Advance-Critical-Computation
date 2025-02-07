@@ -1,0 +1,9 @@
+- Describe the process of researching, designing, and fine-tuning your optical illusion.
+
+This optical illusion sketch, especially the combination of color and background and how it works around the canvas is actually inspired by a Windows screensaver. It works kind of like the second task with the face generator, but more complicated and using patterns. Here, I really gave myself the freedom to experiment. I did a lot of research to figure out how to make objects spin, create different sizes, and work on color gradients. At first, I created basic patterns or grids for each square using a for loop. Then, I used a method to give each object a different stroke color by using parameters from i and j. After that, I made an if-statement where the object would turn into a circle under certain conditions, and into a rotating rectangle under others. I mostly played around with adjusting numbers to create the illusion.
+
+
+
+- How might your optical illusion get deployed in the world around you? Could it be incorporated into a browser extension? Can it possibly be turned into a piece of wearable art?
+
+Just like how I was inspired by the Windows screensaver, I think this optical illusion could be used in a similar way. Or maybe like the work of Refik Anadol, who often uses optical illusions based on quantum physics in his art installations. So, it could be used as an art display, room decoration (interior design enhancement), or even as a background or cover for websites, advertisements, and so on. Especially because of it's basic illusion, color, and background can be a default for screen everywhere

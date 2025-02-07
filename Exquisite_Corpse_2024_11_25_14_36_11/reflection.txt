@@ -1,0 +1,27 @@
+
+1. Your partners’ names
+- Nadya and Sophia (I get Nana's Creature head, Sophia's Creature body, and use my own sketch lower body  )
+
+2. Your design process. Include the sketches and background stories you’ve received
+
+When I designed this, I was quite confused because I have done exquiite corpse projects very often. I wanted to have a different idea and quite unique arena I feel that exquisite corpse will be more fun when we imagine as far as possible. From there, I had the idea to incorporate a lot of strange creatures that were just in my mind at the time. It was quite simple and coincidentally at the time of designing, I had just woken up after having a fairly unique dream (can be seen from my background story). I decided to realize the creatures I found with pictures that I could find and remember. In addition, I chose this design because I wanted to learn photoshop and test the skills that I had not done for a long time, namely photo editing.
+
+Background story of my character :
+This is a creature that came up in my dream. It show up as a unicorn at the beginning but suddenly the head is burning. Then a skeleton head come up and I start to see the dragon neck that burst out the fire. Before I wake up, the creature was cuddling up like a cat and it turns out to be my favorite cat from Ghibli animation
+
+Background Story Sophia :
+My character is an infamous hit man in Jump City. He was smoking a cigar in his study when he heard the sound of an intruder. He's gotten up in his robe and pajamas to investigate the noise.
+
+Background Story Nana : 
+Matahari is a delicate embodiment of contradictions—though a sun. He shines pale, carrying a quiet sadness that seems etched into his very being. Spirals cover its body, swirling like heavy thoughts it can't shake, a symbol of the weight he bears in silence. Its mismatched, wacky socks, while whimsical, reveal an indifference to outside judgment. Yet, Matahari remains methodical, still doing things the "proper" way, even when it seems detached. Like a lost star in a vast universe, he evokes the gentle melancholy - forever pondering and quietly navigating its world.
+
+3. A new background story you’re creating based on the collectively assembled information
+
+This character is an image of many people in the world today. Burdens and complicated things came and make us confused, sad, and disappointed. But we must keep fighting as we grow to overcome the obstacles and judgments of the world. When we are forever pondering and quietly navigating its world, we must also be able to acknowledge our negative conditions. To reflect, reduce overthinking, and accept ourselves for who we are. So at night this character always vents his emotions from what he experiences daily by being a hitman in Jump City. Like Batman who works at night, this character moves mysteriously and gives off quite a dark aura. However, in the end, humans are just humans. We always want to dream, hoping that the world will be better for us. Human will always have a positive side in them and a little light. This can be seen from this character's imagination when dreaming in his sleep. Like a child, he plays with his imagination to be free from the burden of the world. 
+
+
+4. Your assignment reflections
+I'm not very good at drawing but I tried my best. I tried an effective way to create my exquisite corpse by placing the sketch on top of the coordinates (can be seen in the picture Coordinates example tips) in illustrator. This really helped in determining each point even though the coordinates I used appeared different from those in p5js (honestly I don't understand this). Sometimes the drawing became a little different and I still had to shift the coordinates a little. But this is very effective and helps me who can't really draw. 
+
+Also a reflection of the use of functions. I used functions a few times before and I learned about functions for the first time when learning C++. At first I thought functions would only be used when we want to make the same shape, just like in C++ where we call the function to do the same action. We call functions that contain complicated commands and this is to organize things also, which I did here. However, I felt that there were some parts that were more concise without functions like when I used a lot of vertex that I drew one by one. But after working on this, I learned that I can actually use functions to determine some important points of the drawing and start forming other points from the parameters. This will make it easier when we have objects that we want to be able to move around. This is a reflection for next time expanding my mind on what I can do with p5js.
+

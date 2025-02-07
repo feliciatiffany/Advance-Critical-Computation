@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link href="assignment1_style.css" rel="stylesheet">
+    <!-- Montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:ital,opsz@0,14..32;1,14..32&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">    
+
+
+    <title> FELICIA TIFFANY HERTADA </title>
+    </head>   
+    
+<body>
+  <main>
+    <div id="white-overlay"></div>
+    <div id="loader"></div>
+    
+    <div class="wrapper">
+        <!-- sidebar -->
+        <div class="sidebar">
+             <div class="sidebartitle">
+                <div >
+                  Project files </div>
+             </div>
+              <div class="project-list">
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9654;</span>
+                    <div class="title" id="title-hover"><a>Project 1</a></div>
+                  </div>
+                  <div class="sub-items">
+                    <div>Lost and Found</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment2.html">Project 2</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Face Generator</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment3.html">Project 3</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Experimental Clock</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment4.html">Project 4</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Exquisite Corpse</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment5.html">Project 5</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Optical Illusion</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment6.html">Project 6</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Data Portrait</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="final.html">Final Project </a></span>
+                  </div>
+                  <div class="sub-items" style="display: none;">
+                    <div>Autobiographical Game</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="#">Future Work</a></span>
+                  </div>
+                  <div class="sub-items" style="display: none;">
+                    <div>Optical Illusion</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="#">Future Work</a></span>
+                  </div>
+                  <div class="sub-items" style="display: none;">
+                    <div>Data Portrait</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="#">Future Work</a></span>
+                  </div>
+                  <div class="sub-items" style="display: none;">
+                    <div>Data Portrait</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- header -->
+        <div class="header">
+            <div class="top-header">
+            <div id="logosmall"> <img src="logosmall.png" alt="Small Logo" ></div>
+            
+            <div class="navigationlist">
+                <button class="navitem" id="home-link">Home</button>
+                <button  class="navitem" id="about-hover">About Page</button>
+               <a class="navitem" href="https://linktr.ee/feliciatiffanyh">Portfolio</a>
+                <button class="navitem" id="contact-link">Contact</button>
+            </div>
+            
+            </div>
+
+            <div class="bottom-header">
+                <div class="leftheader">
+                    <a class="header-button" href="final.html">
+                      <div class="circle">
+                        <span class="arrow-icon1"></span>
+                        </div>
+                    </a>
+                      
+               
+                    <span id="backnext">Back</span>
+                    
+                    <a class="header-button" href="assignment2.html">
+                      <div class="circle">
+                        <span class="arrow-icon2"></span>
+                      </div>
+                    </a>
+                    <span id="backnext">Next</span>
+                    <div id="titleheader"> LOST AND FOUND </div>  
+                </div>
+                    
+            
+                
+                <div class="rightheader">
+                    <div class="headeritem" id="headeritem6"> Go to p5.js </div>
+                    <a class="header-button" href="https://editor.p5js.org/feliciatiffany/collections/fjMmoPQu_">
+                        <div id="circlelogo">
+                          <img src="Image/logo p5js.png">
+                        </div>
+                        </a>
+                    <a class="headeritem" id="headeritem5" href="https://editor.p5js.org/feliciatiffany/collections/fjMmoPQu_"></a>
+                   
+                </div>
+            </div>
+
+           
+        </div>
+
+        <div class="main">
+            <div class="maintop">
+                <button id="home-link">&lt;</button>
+                <div id="backhome"> Back Home</div>
+            </div>
+
+            <div class="midleft">
+                <div class="project-num" >
+                    <div> 1 </div>
+                    <div> 2 </div>
+                    <div> 3 </div>
+
+                </div>
+
+                
+            </div>
+
+            <div class="midright">
+                <div class="project-desc">
+                    <div>
+                    This assignment explores the ambiguity of human language and its contrast with the precision of computer programming. Working in pairs, we exchanged detailed descriptions of personal objects lost in the past. Using p5.js, we translated these descriptions into code to recreate our partner’s object. The goal was to understand the gap between how humans interpret words versus how computers execute instructions. Evaluation focused on the code produced and personal reflections on the process, rather than the partner’s output. This project highlights the challenges of communication and interpretation between humans and machines. 
+                    </div>
+
+                <div>
+                    My partner’s name : Ireen
+                </div>
+                
+                <div>
+                    The object description :
+             
+                </div>
+
+                <div>
+                   rectangle white container that vertically opens upward. When you open the container, there are small rectangular divider/section along the edges of the bottom part of the container. Inside those containers are each different colors of watercolor paint. The colors go in the order of the rainbow.
+                </div>
+                </div>
+            </div>
+
+            <div class="mainbottom">
+                <p>Socials</p>
+                
+            </div>
+
+            <div class="maindesc">
+                <div class="social-links">
+                    <a href="https://www.instagram.com/feliciatiffanyh/" target="_blank">Instagram</a>
+                    <a href="mailto:feliciatiffany@gmail.com">Gmail</a>
+                    <a href="https://www.linkedin.com/in/feliciatiffanyh/" target="_blank">LinkedIn</a>
+                  </div>
+            
+            </div>
+            
+                
+      
+        </div>
+        
+        <!-- image -->
+        <div class="image">
+            <div class="preview">Preview</div>
+            <div id="p5-container1">
+            </div>
+          </div>
+       
+    </div>
+  
+    
+  
+
+        
+   </main>
+
+    
+
+
+  <!-- Scripts -->
+  <script src="fcf-assets/js/lang/fcf.en.js"></script>
+  <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
+  <script src="fcf-assets/js/fcf.form.js"></script>
+  <script src="Lost_and_Found_Felicia_Hertada_2024_11_25_14_29_41/sketch.js"></script>
+  <script src="assignment.js"></script>
+    
+</body>
+</html>
+
+
+
+  
+  
+  
+  <!-- <main>
+
+   
+    
+    
+    <script src="transition.js"></script>
+    </main>
+</body>
+</html>
+ -->
+
+<!-- <section>
+    
+</section> -->

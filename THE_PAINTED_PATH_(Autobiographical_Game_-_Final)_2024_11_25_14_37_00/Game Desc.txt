@@ -1,0 +1,33 @@
+GAME DESCRIPTION
+
+
+**Brief Explanation/Synopsis:
+
+Sunney represents how I view a human’s journey in life. We all know that life isn’t easy—it’s full of challenges and can be exhausting. But it’s our values and mindset that can make life more meaningful. If we look at life like a game, every passion and dream we pursue is like collecting points. That’s the idea behind this game. Sunney is a character chasing dreams and passions, just like we humans are the characters in our own stories. Specifically, Sunney is a reflection of myself—a character for my life’s story. The game consist of three stages represent three of some passions I discovered in my life: concerts/music, art, and technology. The sunflower as my favorite flower and sunsets as my favorite time, which I believe can symbolize the end of life, are also incorporated. Every part of this game is thoughtfully designed to reflect my journey. Beyond that, I hope this game inspires others to see life as a blessing filled with joy and mysteries worth exploring.
+
+------------
+**GAME PROPOSAL : 
+There's two proposal but I'm using the second one
+https://docs.google.com/document/d/1yhNMIsF6eXYdbV_9zNrTkPX99TUjlIBGT4teAwjNz6I/edit?tab=t.0
+
+------------
+**GAME GRAYBOX :
+https://editor.p5js.org/feliciatiffany/sketches/M5fE9HYWW
+
+------------
+**REFLECTION : 
+
+While creating this game, I went through a lot of reflection, especially when writing the code. There were tons of errors and new things I had to learn, but I’ll leave those reflections in the comments within the `.js` file since there’s just so much to cover.
+
+Beyond coding, I also reflected a lot on planning and building the game, as well as illustrating the story in each scene. Honestly, I underestimated the difficulty of creating a full game with p5.js, especially one with a narrative. Working on this project made me gain a new level of respect for game developers, even those who create seemingly simple games. The process taught me that making a game isn’t just about a love for playing—it’s about the thought and consideration behind every part.
+
+At the proposal stage, I was quite unsure about my plan. I wanted to create something autobiographical, but also something that could resonate with the player. That’s why I shifted my original idea, which was more focused on my country, to a game about pursuing passions that everyone can relate to. This idea came from a quote I heard somewhere (even though I don’t remember who said it): "Life is like a game." Seeing life this way makes it more enjoyable, and obstacles become challenges that are exciting to overcome. That’s how I go with this concept and started building the game.
+
+When I was working on the gray box, I learned a lot from people on the internet, from classmates in other courses, and definitely from ChatGPT. Without realizing it, the sheer amount of code lines became overwhelming, and I often felt stressed because the hardest part was always debugging the never-ending errors. One decision that helped was splitting each stage into separate p5.js files before merging them into one. Even though it seemed more complicated, it actually helped clear my mind and made debugging much easier and less stressful.
+
+The final step was creating illustrations and integrating them into the `.js` file. This stage took quite a bit of time since I had to switch between different apps. Not only that, there's an accident where I have to redrawn the whole things because I forgot to save my file:((( But with patience, I could see my game improve significantly once visuals were added. It taught me that design really is crucial—it’s what gives each game a unique touch from its creator.
+
+Overall, I truly enjoyed making this project, and it’s an assignment that I will always remember. Even though it involved many sleepless nights and stressful moments, I’m proud that I managed to create a game from scratch, especially considering I started with no experience at all.
+
+
+**Sidenote : so for all the code without explanation or citation, I write it myself
