@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
-    <link href="assignment_style.css" rel="stylesheet">
+    <link href="prototype_style.css" rel="stylesheet">
     <!-- Montserrat font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,8 +74,8 @@
               
                 <div class="project-item">
                   <div class="project-header">
-                    <span class="arrow">&#9654;</span>
-                    <span class="title" id="title-hover"><a>Project 5</a></span>
+                    <span class="arrow">&#9660;</span>
+                    <span class="title" ><a href="assignment5.html">Project 5</a></span>
                   </div>
                   <div class="sub-items">
                     <div>Optical Illusion</div>
@@ -85,7 +85,7 @@
                 <div class="project-item">
                   <div class="project-header">
                     <span class="arrow">&#9660;</span>
-                    <span class="title"><a href="assignment6.html">Project 6</a></span>
+                    <span class="title" ><a href="assignment6.html">Project 6</a></span>
                   </div>
                   <div class="sub-items">
                     <div>Data Portrait</div>
@@ -95,7 +95,7 @@
                 <div class="project-item">
                   <div class="project-header">
                     <span class="arrow">&#9660;</span>
-                    <span class="title"><a href="final.html">Final Project </a></span>
+                    <span class="title" ><a href="final.html">Project 6</a></span>
                   </div>
                   <div class="sub-items">
                     <div>Autobiographical Game</div>
@@ -104,11 +104,15 @@
               
                 <div class="project-item">
                   <div class="project-header">
-                    <span class="arrow">&#9660;</span>
-                    <span class="title"><a href="project2_typography.html">Project #2</a></span>
+                    <span class="arrow">&#9654;</span>
+                    <span class="title"> <a href="final.html">Project 2#</a></span>
                   </div>
-                  <div class="sub-items" style="display: none;">
-                    <div>Interactive Typography</div>
+                  
+                  <div class="sub-items">
+                    <div >Interactive Typography</div>
+                  </div>
+                  <div class="sub-items" id="sub-prototype">
+                    <div id="title-hover">Prototype</div>
                   </div>
                 </div>
               
@@ -149,7 +153,7 @@
 
             <div class="bottom-header">
                 <div class="leftheader">
-                    <a class="header-button" href="assignment4.html">
+                    <a class="header-button" href="assignment6.html">
                       <div class="circle">
                         <span class="arrow-icon1"></span>
                         </div>
@@ -158,13 +162,13 @@
                
                     <span id="backnext">Back</span>
                     
-                    <a class="header-button" href="assignment6.html">
+                    <a class="header-button" href="assignment1.html">
                       <div class="circle">
                         <span class="arrow-icon2"></span>
                       </div>
                     </a>
                     <span id="backnext">Next</span>
-                    <div id="titleheader"> OPTICAL ILLUSION </div>  
+                    <div id="titleheader"> AUTOBIOGRAPHICAL GAME - THE PAINTED PATH </div>  
                 </div>
                     
             
@@ -203,19 +207,29 @@
 
             <div class="midright">
                 <div class="project-desc">
-                    <div>
-                        This project involved designing and coding an animating optical illusion, inspired by the rich and diverse history of pattern-making. Drawing from cultural experiences and media influences, I created a dynamic visual effect using p5.js that challenges perception and engages the viewer. The project also included reflections on how such illusions can be deployed in the real world—for purposes like obfuscation, communication, or creative expression. This assignment merges technical skills with cultural storytelling, resulting in an innovative and thought-provoking creation.
-                    </div>
-
+                    
+                    <div class="grid-iframe">
+                      <!-- 1 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/vAm1RCmEs"></iframe> 
+                      <!-- 2 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/OSHhNUx0w"></iframe>
+                      <!-- 3 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/Zo5tfGo9N"></iframe>      
+                      <!-- 4 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/-i8SkwE1R"></iframe>
+                      <!-- 5 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/6xQDqE-iu"></iframe>
+                      <!-- 6 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/a2ldw5TyJ"></iframe>
+                      <!-- 7 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/DfMy-Fyy3"></iframe>
+                      <!-- 8 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/PcBnR0H0k"></iframe>
+                      <!-- 9 -->
+                      <iframe src="https://editor.p5js.org/feliciatiffany/full/CriaigY75"></iframe>
+                  </div>
                 
-                <div>
-                    DESCRIPTION : 
-             
-                </div>
                 
-                <div>
-                    This optical illusion sketch, especially the combination of color and background and how it works around the canvas is actually inspired by a Windows screensaver. It works kind of like the second task with the face generator, but more complicated and using patterns. Here, I really gave myself the freedom to experiment. I did a lot of research to figure out how to make objects spin, create different sizes, and work on color gradients. At first, I created basic patterns or grids for each square using a for loop. Then, I used a method to give each object a different stroke color by using parameters from i and j. After that, I made an if-statement where the object would turn into a circle under certain conditions, and into a rotating rectangle under others. I mostly played around with adjusting numbers to create the illusion.
-                </div>
                 </div>
             </div>
 
@@ -237,19 +251,10 @@
       
         </div>
         
-        <!-- image -->
-        <div class="image">
-            <div class="preview">Preview</div>
-             <!-- <iframe src="https://editor.p5js.org/feliciatiffany/full/8FFiH7Jkc"></iframe> -->
-            <div id="p5-container"></div>
-          </div>
+       
        
     </div>
-  
-    
-  
-
-        
+ 
    </main>
 
     
@@ -259,8 +264,10 @@
   <script src="fcf-assets/js/lang/fcf.en.js"></script>
   <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
   <script src="fcf-assets/js/fcf.form.js"></script>
-  <script src="Optical_Illusion_2024_11_25_14_36_21/sketch.js"></script>
+  <script src="THE_PAINTED_PATH_(Autobiographical_Game_-_Final)_2024_11_25_14_37_00/sketch.js"></script>
   <script src="assignment.js"></script>
     
 </body>
 </html>
+
+   

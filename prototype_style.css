@@ -55,12 +55,12 @@ main {
   .wrapper {
     display: grid;
     grid-template-areas:
-    "header header header"
-    "sidebar main image";
+    "header header"
+    "sidebar main";
     height: auto;
     width: auto;
     gap: 0;
-    grid-template-columns: 170px 1fr 1fr;
+    grid-template-columns: 170px 1fr;
     grid-template-rows: 100px 1fr; 
     height: 100vh; 
    
@@ -379,7 +379,7 @@ main {
     grid-template-columns:50px 1fr;
     grid-template-rows: 30px auto 30px 120px; 
     height: 100vh; 
-    width: 100%;
+    width: 99%;
     min-height: 100%;
 
     
@@ -428,6 +428,18 @@ main {
     overflow: scroll!important;
   }
 
+  .grid-iframe {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    gap: 20px;
+    width: 100%;
+}
+.grid-iframe iframe {
+    width: 100%;
+    height: 600px;
+    width: 600px;
+    border: none;
+}
     
 
   .project-desc {
@@ -438,7 +450,7 @@ main {
     "wdth" 100;
     color: #62232D;
     font-size: 12pt;
-    margin :10px 80px 10px 10px;
+    margin :10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -503,26 +515,7 @@ main {
 
   
   
-  /* IMAGE */
-.image {
-    grid-area: image;
-    width: 100%;
-    background-color:white;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-.preview {
-    font-family: "Inconsolata", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-variation-settings:
-    "wdth" 100;
-    color: #62232D;
-    text-align: left;
-}
+  
 /* P5.js */
 
 
