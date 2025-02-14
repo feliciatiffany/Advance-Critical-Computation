@@ -519,11 +519,6 @@ main {
 /* P5.js */
 
 
-#p5-container1, #p5-container2 {
-    width: 100%;
-    
-    margin: 10px;
-  }
 
 #defaultCanvas0 .canvas {
   width: 0;
