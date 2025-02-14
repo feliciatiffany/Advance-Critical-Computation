@@ -519,12 +519,10 @@ main {
 /* P5.js */
 
 
-#p5-container {
+#p5-container1, #p5-container2 {
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 20px;
+    
+    margin: 10px;
   }
 
 #defaultCanvas0 .canvas {
