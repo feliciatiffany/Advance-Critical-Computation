@@ -161,6 +161,15 @@ main {
     color: #333;
     font-size: 12pt;
   }
+
+  .sub-items a {
+    font-family: "Inconsolata", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 12pt;
+  }
         
   #sub-prototype {
     padding: 10px 0 10px 0;
