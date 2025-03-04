@@ -521,7 +521,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
   }
+
+.image img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%;
+    object-fit: contain;
+    margin:0;
+}
 
 .preview {
     font-family: "Inconsolata", serif;
