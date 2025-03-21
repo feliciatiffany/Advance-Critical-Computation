@@ -563,9 +563,72 @@ main {
   
 
   
+/* FOR PROJECT 3 FILTER DESC */
+.prototype {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-areas: 
+    "desc whitebox"
+    "iframe iframe";
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+}
 
-    
-    
+.prototype-desc {
+  grid-area: desc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.prototype-desc img {
+  width: 100%; 
+  height: 100%; 
+  max-width: 100%;
+  object-fit: contain;
+  margin:0;
+  padding :0
+}
+  
+
+.whitebox {
+  grid-area: whitebox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.whitebox iframe {
+  width: 100%; 
+  max-width: 600px; 
+  height: 600px;
+  border: none;
+}
+
+
+.grid-iframe-project3 {
+  grid-area: iframe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+}
+
+.grid-iframe-project3 iframe {
+  width: 400px; 
+  height: 400px;
+  border: none;
+}
+
+
+
 
  
 
