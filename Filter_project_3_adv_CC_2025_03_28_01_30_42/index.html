@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hand Pose Detection</title>
+
+  <!-- p5.js and ml5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.12.2/dist/ml5.min.js"></script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;      
+      height: 100%;
+      width: 100%;
+      background: #111;
+    }
+
+    #canvas-frame {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    canvas {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-frame"></div>
+
+  <!-- Load your sketch -->
+  <script src="function.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
