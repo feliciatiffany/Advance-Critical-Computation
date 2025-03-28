@@ -594,7 +594,14 @@ main {
     opacity: 1;
   }
   
+/* //filter video youtube */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  margin: 10px auto;
+}
   
 
     

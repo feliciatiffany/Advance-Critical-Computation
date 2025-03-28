@@ -25,16 +25,15 @@ let diverStormIntensity = 1.5;
 
 function preload() {
   classifier = ml5.imageClassifier(
-    "https://teachablemachine.withgoogle.com/models/9YlKw6pZA/model.json"
+    "https://teachablemachine.withgoogle.com/models/9YlKw6pZA/"
   );
 }
 
 function setup() {
   let canvas = createCanvas(windowWidth, (windowWidth / videoWidth) * videoHeight);
 
-    canvas.parent("canvas-frame"); 
-   
-  
+  canvas.parent("canvas-frame"); 
+ 
   video = createCapture(VIDEO);
   video.size(videoWidth, videoHeight);
   video.hide();
@@ -137,12 +136,12 @@ function gotResults(error, results) {
       timestamp: millis(),
     });
   } else if (
-    label.toLowerCase().trim() === "Diver's Out of Air" &&
+    label.toLowerCase().trim() === "diver's out of air" &&
     predictions.length > 0 &&
     predictions[0].landmarks.length >= 1
   ) {
     let pg = createGraphics(width, height);
-
+    console.log(label)
     // Get hand points
     let handPoints = predictions[0].landmarks.map(([x, y]) => {
       return createVector(
@@ -160,10 +159,11 @@ function gotResults(error, results) {
       timestamp: millis(),
     });
   } else if (
-    label.toLowerCase().trim() === "International (Domestic Violence)" &&
+    label.toLowerCase().trim() === "international (domestic violence)" &&
     predictions.length > 0 &&
     predictions[0].landmarks.length >= 1
   ) {
+    console.log(label)
     let [x, y] = predictions[0].landmarks[9]; // Using landmark 9 
     let adjustedX = width - x; // Mirroring the x-coordinate
     let adjustedY = y;
@@ -181,7 +181,7 @@ function gotResults(error, results) {
       timestamp: millis(),
     });
   } else if (
-    label.toLowerCase().trim() === "Universal Distress" &&
+    label.toLowerCase().trim() === "universal distress" &&
     predictions.length > 0 &&
     predictions[0].landmarks.length >= 1
   ) {
