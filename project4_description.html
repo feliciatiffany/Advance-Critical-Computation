@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link href="assignment_style.css" rel="stylesheet">
+    <!-- Montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:ital,opsz@0,14..32;1,14..32&family=Montserrat:ital@0;1&display=swap" rel="stylesheet">    
+
+
+    <title> FELICIA TIFFANY HERTADA </title>
+    </head>   
+    
+<body>
+  <main>
+    <div id="white-overlay"></div>
+    <div id="loader"></div>
+    
+    <div class="wrapper">
+        <!-- sidebar -->
+        <div class="sidebar">
+             <div class="sidebartitle">
+                <div >
+                  Project files </div>
+             </div>
+              <div class="project-list">
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <div class="title" ><a href="assignment1.html">Project 1</a></div>
+                  </div>
+                  <div class="sub-items">
+                    <div>Lost and Found</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment2.html">Project 2</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Face Generator</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title" ><a href="assignment3.html">Project 3</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Experimental Clock</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment4.html">Project 4</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Exquisite Corpse</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title" ><a href="assignment5.html">Project 5</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Optical Illusion</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="assignment6.html">Project 6</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Data Portrait</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="final.html">Final Project </a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Autobiographical Game</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="project2_typography.html">Project #2</a></span>
+                  </div>
+                  <div class="sub-items">
+                    <div>Interactive Typography</div>
+                  </div>
+                </div>
+              
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title" ><a href="project3_filter.html">Project #3</a></span>
+                  </div>
+                  <div class="sub-items" >
+                    <div><a href="project3_filter.html">Experimental Camera</a></div>
+                  </div>
+                 
+                </div>
+                
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9654;</span>
+                    <span class="title"  id="title-hover"><a>Project #4</a></span>
+                  </div>
+                  <div class="sub-items" id="title-hover" >
+                    <div>Description & Grey Box</div>
+                  </div>
+                  <div class="sub-items" >
+                    <div ><a href="">Travel Community Tool</div>
+                  </div>
+                </div>
+
+
+                <div class="project-item">
+                  <div class="project-header">
+                    <span class="arrow">&#9660;</span>
+                    <span class="title"><a href="#">Future Work</a></span>
+                  </div>
+                  <div class="sub-items" style="display: none;">
+                    <div>Data Portrait</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- header -->
+        <div class="header">
+            <div class="top-header">
+            <div id="logosmall"> <img src="logosmall.png" alt="Small Logo" ></div>
+            
+            <div class="navigationlist">
+                <button class="navitem" id="home-link">Home</button>
+                <button  class="navitem" id="about-hover">About Page</button>
+               <a class="navitem" href="https://linktr.ee/feliciatiffanyh">Portfolio</a>
+                <button class="navitem" id="contact-link">Contact</button>
+            </div>
+            
+            </div>
+
+            <div class="bottom-header">
+                <div class="leftheader">
+                    <a class="header-button" href="project3_filter.html">
+                      <div class="circle">
+                        <span class="arrow-icon1"></span>
+                        </div>
+                    </a>
+                      
+               
+                    <span id="backnext">Back</span>
+                    
+                    <a class="header-button" href="filter_prototype.html">
+                      <div class="circle">
+                        <span class="arrow-icon2"></span>
+                      </div>
+                    </a>
+                    <span id="backnext">Next</span>
+                    <div id="titleheader"> Community Tool or Quiz - Pack for Travel
+                    </div>  
+                </div>
+                    
+            
+                
+                <div class="rightheader">
+                    <div class="headeritem" id="headeritem6"> Go to p5.js </div>
+                    <a class="header-button" href="https://editor.p5js.org/feliciatiffany/collections/fjMmoPQu_">
+                        <div id="circlelogo">
+                          <img src="Image/logo p5js.png">
+                        </div>
+                        </a>
+                    <a class="headeritem" id="headeritem5" href="https://editor.p5js.org/feliciatiffany/collections/fjMmoPQu_"></a>
+                   
+                </div>
+            </div>
+
+           
+        </div>
+
+        <div class="main">
+            <div class="maintop">
+                <button id="home-link">&lt;</button>
+                <div id="backhome"> Back Home</div>
+            </div>
+
+            <div class="midleft">
+                <div class="project-num" >
+                    <div> 1 </div>
+                    <div> 2 </div>
+                    <div> 3 </div>
+
+                </div>
+
+                
+            </div>
+
+            <div class="midright">
+            <div class="project-desc">
+            
+                <div><strong>Project Description</strong></div>
+                <div></div>
+               
+                <div>
+                  I’ve chosen to create a travel preparation tool centered around the traveling community, particularly people like myself who enjoy traveling but often find the preparation stage stressful and overwhelming. As someone who loves to explore new places, I don’t like how frustrating and anxiety triggering it can be to pack and get ready for a trip. The fear of forgetting something important can really affect the excitement of the journey and sometimes even ruin the experience.
+
+                </div>
+
+            
+                <div>
+                  So, I’m thinking about making this tool that’s specifically designed for travelers who want to simplify the packing process and reduce travel anxiety. It’s inspired not only by my own struggles, but also by conversations with friends who travel frequently. Many of them mentioned that having someone to help go over a checklist or a system that reminds them what to pack is extremely helpful. I also found some researchs that said many travelers experience significant stress during the preparation phase of a trip, often due to the fear of forgetting essential items. According to recent surveys, 65% of Americans find packing challenging, with many postponing it until the last minute. Other research also said commonly forgotten items include phone chargers, toiletries, and sunscreen, with 42% of travelers reporting that forgetting something has negatively impacted their trip, sometimes resulting in unexpected expenses or discomfort. Despite the existence of various packing apps like PackPoint and Packr, users still express dissatisfaction with their complex interfaces or generic suggestions. Also, having to download apps only for preparation seems so complicated. These findings highlight a clear need for a simple, personalized packing checklist tool—one that not only guides users through what they need to bring but also fun do to and enjoyable. I want to try making this tool that benefit and also encourage people to love travelling.
+                </div>
+              
+            
+                <div>
+                  My tool will act as a personalized packing checklist generator. I want it to focus on checking items that are commonly needed for travel. It focuses on reminding people and helping them prepare for their trip. There will also be some mini questions that engage the user with other travel-related topics, such as simple questions about destination, weather, activities, and travel style. I’m thinking about having these questions change the background of the website, creating a visual travel moodboard as the end result of a successful packing experience. This will not only help users prepare but also build up the excitement and aesthetic side of traveling, knowing that they are good to go.
+                </div>
+                
+            </div>
+        </div>
+
+
+            <div class="mainbottom">
+                <p>Socials</p>
+                
+            </div>
+
+            <div class="maindesc">
+                <div class="social-links">
+                    <a href="https://www.instagram.com/feliciatiffanyh/" target="_blank">Instagram</a>
+                    <a href="mailto:feliciatiffany@gmail.com">Gmail</a>
+                    <a href="https://www.linkedin.com/in/feliciatiffanyh/" target="_blank">LinkedIn</a>
+                  </div>
+            
+            </div>
+            
+                
+      
+        </div>
+        
+        <!-- image -->
+        <div class="image">
+          <div class="preview">Preview</div>
+          <div >
+              <img src="Image/moodboard and greybox.png" alt="Filter Description">
+          </div>
+        </div>
+      
+       
+    </div>
+  
+    
+  
+
+        
+   </main>
+
+    
+
+
+  <!-- Scripts -->
+  <script src="fcf-assets/js/lang/fcf.en.js"></script>
+  <script src="fcf-assets/js/fcf.just-validate.min.js"></script>
+  <script src="fcf-assets/js/fcf.form.js"></script>
+ 
+  <script src="assignment.js"></script>
+    
+</body>
+</html>
